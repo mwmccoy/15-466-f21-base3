@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Perilous Escape
 
-Author: (TODO: your name)
+Author: Woody McCoy
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: This is a game about being a robot, who must carefully move to escape a labratory. Sound cues are essential to knowing when it's safe to move!
 
 Screen Shot:
 
@@ -10,9 +10,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Press and hold space to move forward, and release space to stop. Do not move when the spotlights are on your character.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: N/A
 
 This game was built with [NEST](NEST.md).
 
