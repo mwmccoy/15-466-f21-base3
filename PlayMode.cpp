@@ -289,15 +289,6 @@ void PlayMode::update(float elapsed) {
 		{
 
 			//combine inputs into a move:
-			float wheelHeight = .3f;
-
-			float wheelCircumference = 2 * wheelHeight * float(M_PI);
-
-			glm::vec2 move = glm::vec2(0.0f);
-			if (left.pressed && !right.pressed) move.x = -1.0f;
-			if (!left.pressed && right.pressed) move.x = 1.0f;
-			if (down.pressed && !up.pressed) move.y = -1.0f;
-			if (!down.pressed && up.pressed) move.y = 1.0f;
 
 			//make it so that moving diagonally doesn't go faster:
 			//if (move != glm::vec2(0.0f)) move = glm::normalize(move) * PlayerSpeed * elapsed;
@@ -309,7 +300,6 @@ void PlayMode::update(float elapsed) {
 					gameLost = true;
 				}
 
-				float dist = PlayerSpeed * elapsed;
 				player->position.y += PlayerSpeed * elapsed;
 				camera->transform->position.y += PlayerSpeed * elapsed;
 				if (camera->transform->position.y > maxY)
