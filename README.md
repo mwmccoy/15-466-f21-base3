@@ -10,7 +10,7 @@ Screen Shot:
 
 How To Play:
 
-Press and hold space to move forward, and release space to stop. Do not move when the spotlights are on your character.
+Press and hold space to move forward, and release space to stop. Do not move when the spotlights are on your character, and use the music cues to know when they'll move onto you.
 
 Sources: N/A
 
